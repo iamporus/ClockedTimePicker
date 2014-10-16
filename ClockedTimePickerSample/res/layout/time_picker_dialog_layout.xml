@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.roomies.clockedtimepicker.TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:padding="10dp" >
+    </com.roomies.clockedtimepicker.TimePicker>
+
+    <com.roomies.clockedtimepicker.TimeTextView
+        android:id="@+id/timeTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#ff33b5e5"
+        android:textSize="36sp" >
+    </com.roomies.clockedtimepicker.TimeTextView>
+
+</LinearLayout>
